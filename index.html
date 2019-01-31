@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+
+<!-- Bootstrap CSS - these are libraries are querying libraries on the web. bootstrap is a 12 column structure/layout, naming of divs will need to add up to 12 columns. bootstrap is one of many libraries, but it's most commonly used. if you want to become a front end developer, first semster you shouldn't use it.-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--END of boot strap header code, should go above custome css. -->
+
+
+<title>Document</title>
+<h1> test </h1>
+</head>
+<body>
+<!--riot tags start-->
+<app></app>
+
+<script src="tags/app.tag" type="riot/tag"></script>
+<script src="tags/photo-card.tag" type="riot/tag"></script>
+<script src="https://cdn.jsdelivr.net/npm/riot@3.13.2/riot+compiler.min.js"></script>
+
+<script>
+riot.mount('*');
+</script>
+<!--riot tags end-->
+</body>
+</html>
